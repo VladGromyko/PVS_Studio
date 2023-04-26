@@ -101,7 +101,7 @@ int main() {
 		cout << "Широковещательный адрес: " << host[0] << "." << host[1] << "." << host[2] << "." << host[3] << endl;
 		break;
 	}
-		  return sizeof(oct) * sizeof(host);
+		  
 
 	case 2: { //Выходим
 
