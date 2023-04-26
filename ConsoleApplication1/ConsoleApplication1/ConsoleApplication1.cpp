@@ -94,6 +94,7 @@ int main() {
 				host[i] = 255;
 				nhosts *= 256;
 			}
+		
 
 		cout << endl << "Кол-во хостов: " << nhosts << endl;
 		cout << "Маска сети: " << mask[0] << "." << mask[1] << "." << mask[2] << "." << mask[3] << endl;
