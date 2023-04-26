@@ -43,7 +43,7 @@ int main() {
 				}
 			}
 		}
-		numbermask == 0;
+		numbermask = 0;
 		
 	    
 		cout << "Введите маску: ";
