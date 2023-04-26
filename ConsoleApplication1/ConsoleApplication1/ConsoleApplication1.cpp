@@ -57,7 +57,6 @@ int main() {
 		}
 		
 		noctet = 0;
-		if (noctet==true )
 		noctet = numbermask / 8;
 		for (int i = 0; i < noctet; i++)
 			mask[i] = 255;
