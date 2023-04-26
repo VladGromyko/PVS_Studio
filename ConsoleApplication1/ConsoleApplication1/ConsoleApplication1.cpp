@@ -43,7 +43,7 @@ int main() {
 				}
 			}
 		}
-		numbermask == 0;
+		numbermask = 0;
 		
 	    
 		cout << "Введите маску: ";
@@ -57,7 +57,6 @@ int main() {
 		}
 		
 		noctet = 0;
-		if (noctet==true )
 		noctet = numbermask / 8;
 		for (int i = 0; i < noctet; i++)
 			mask[i] = 255;
@@ -94,6 +93,7 @@ int main() {
 				host[i] = 255;
 				nhosts *= 256;
 			}
+		
 
 		cout << endl << "Кол-во хостов: " << nhosts << endl;
 		cout << "Маска сети: " << mask[0] << "." << mask[1] << "." << mask[2] << "." << mask[3] << endl;
@@ -101,7 +101,7 @@ int main() {
 		cout << "Широковещательный адрес: " << host[0] << "." << host[1] << "." << host[2] << "." << host[3] << endl;
 		break;
 	}
-		  return sizeof(oct) * sizeof(host);
+		  
 
 	case 2: { //Выходим
 
